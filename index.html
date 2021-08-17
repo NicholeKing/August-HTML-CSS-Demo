@@ -1,33 +1,42 @@
 <html>
-    <head></head>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    </head>
     <body>
-        <h1>Thor</h1>
-        <h2>The God of Thunder</h2>
-        <!-- You can bring in an image using the refernce to its location on the internet -->
-        <!-- <img src="https://i5.walmartimages.com/dfw/4ff9c6c9-e9a3/k2-_9c80001d-7ec5-4e62-acb1-00d819815725.v1.jpg?odnWidth=672&odnHeight=672&odnBg=ffffff" alt="Thor"> -->
-        <!-- OR you can bring in a file by saving it to your project and referencing it by its location -->
-        <img src="images/thor.jpg" alt="Thor"/>
-        <!-- ctrl (cmd for mac) + / -->
-        <p><strong>Biography:</strong> Born as the half-Asgardian, half-Elder God son of Odin, the All-Father and King of Asgard, and as the Norse God of Thunder, Thor was an adventurous yet ill-tempered deity, often travelling to other realms to do battle with Asgard's foes.</p>
-        <h4>Contact Thor with your Earthly troubles</h4>
-        <form>
-            <!-- This is where all my inputs will live -->
-            <div>
-                <label for="">First Name</label>
-                <input type="text"/>
+        <div id="wrapper">
+            <div id="title">
+                <h1>Thor</h1>
+                <h2 id="secondaryTitle">The God of Thunder</h2>
             </div>
-            <div>
-                <label for="">Phone Number</label>
-                <input type="text">
-            </div>
-            <button>Submit</button>
-            <input type="submit" value="Submit">
-            <!-- <label for="">First Name</label>
-            <input type="text"/>
-            <br/>
-            <label for="">First Name</label>
-            <input type="text"/> -->
             
-        </form>
+            <!-- You can bring in an image using the refernce to its location on the internet -->
+            <!-- <img src="https://i5.walmartimages.com/dfw/4ff9c6c9-e9a3/k2-_9c80001d-7ec5-4e62-acb1-00d819815725.v1.jpg?odnWidth=672&odnHeight=672&odnBg=ffffff" alt="Thor"> -->
+            <!-- OR you can bring in a file by saving it to your project and referencing it by its location -->
+            <img src="images/thor.jpg" alt="Thor"/>
+            <!-- ctrl (cmd for mac) + / -->
+            <p><strong>Biography:</strong> Born as the half-Asgardian, half-Elder God son of Odin, the All-Father and King of Asgard, and as the Norse God of Thunder, Thor was an adventurous yet ill-tempered deity, often travelling to other realms to do battle with Asgard's foes.</p>
+            <h4>Contact Thor with your Earthly troubles</h4>
+            <form>
+                <!-- This is where all my inputs will live -->
+                <div class="form-group">
+                    <label for="">First Name</label>
+                    <input type="text"/>
+                </div>
+                <div class="form-group">
+                    <label for="">Phone Number</label>
+                    <input type="text">
+                </div>
+                <button>Submit</button>
+                <input type="submit" value="Submit">
+                <!-- <label for="">First Name</label>
+                <input type="text"/>
+                <br/>
+                <label for="">First Name</label>
+                <input type="text"/> -->
+            </form>
+        </div>
     </body>
 </html>
